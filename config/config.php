@@ -7,7 +7,7 @@ define('DB_USER', 'esalex_admin');
 define('DB_PASS', '28011999..');
 
 // URL base (sin la barra final). Ejemplo: http://localhost/public
-define('BASE_URL', '/public');
+define('BASE_URL', 'gestec/public');
 
 // SMTP (PHPMailer) - configura estos valores para que el sistema envíe correos.
 // Si usas Gmail con autenticación moderna, crea una contraseña de aplicación o usa un SMTP relay.
