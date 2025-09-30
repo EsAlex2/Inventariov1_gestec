@@ -1,6 +1,6 @@
-# Inventario v3 (PHP + MySQL) - Con recuperación por correo
+# Inventario v1 (PHP + MySQL) - Con recuperación por correo
 
-**Novedades v3**
+**Novedades v1**
 - Login con username o email.
 - Registro extendido: username, nombres, apellidos, teléfono.
 - Recuperación de contraseña vía correo (token temporal).
@@ -9,7 +9,7 @@
 - Configura SMTP en `config/config.php` y usa PHPMailer para envío real.
 
 ## Configurar envío de correos (PHPMailer)
-1. Desde la raíz del proyecto (donde está `composer.json` si lo creas) instala PHPMailer:
+1. Desde la raíz del proyecto (donde está `composer.json`)
    ```bash
    composer require phpmailer/phpmailer
    ```
@@ -20,9 +20,4 @@
 ## Importante
 - Ejecuta `sql/schema.sql` en tu base de datos para crear las nuevas tablas.
 - Ajusta `config/config.php` según tu entorno.
-- Accede a `http://localhost/inventario_v1/public`
-
-Si quieres, puedo ahora:
-- Integrar envío por SMS para notificaciones (requiere cuenta Twilio u otro proveedor).
-- Añadir interfaz AJAX para crear/edit clientes y suppliers sin recargar.
-- Crear pruebas automatizadas para la recuperación y registro.
+- Accede a `http://127.0.0.1/gestec/public/
