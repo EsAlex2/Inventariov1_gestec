@@ -4,10 +4,10 @@
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'inventario_v1');
 define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_PASS', '28011999..');
 
-// URL base (sin la barra final). Ejemplo: http://localhost/inventario_v1/public
-define('BASE_URL', '/inventario_v1/public');
+// URL base (sin la barra final). Ejemplo: http://localhost/public
+define('BASE_URL', '/public');
 
 // SMTP (PHPMailer) - configura estos valores para que el sistema envíe correos.
 // Si usas Gmail con autenticación moderna, crea una contraseña de aplicación o usa un SMTP relay.
