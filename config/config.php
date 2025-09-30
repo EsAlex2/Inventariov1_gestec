@@ -3,7 +3,7 @@
 // Ajusta estas constantes a tu entorno local (XAMPP/MAMP/WAMP).
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'inventario_v1');
-define('DB_USER', 'root');
+define('DB_USER', 'esalex_admin');
 define('DB_PASS', '28011999..');
 
 // URL base (sin la barra final). Ejemplo: http://localhost/public
